@@ -35,3 +35,6 @@ The next links helped me a lot to finish this task.
 
 - *Design Patterns for Beginners With Java Examples:* https://dzone.com/articles/design-patterns-for-beginners-with-java-examples
 
+- *Patrones de diseño - Betta Tech, Youtube Playlist:* https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8&index=1
+
+- *Singleton Java:* https://es.wikipedia.org/wiki/Singleton#Java
