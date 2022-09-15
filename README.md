@@ -1,4 +1,4 @@
-# Sprint3_Task1
+# BE_Java_Sprint3_Task1
 
 Repository created to deliver the first task of the third sprint of the BackEnd Java Bootcamp at IT-Academy.
 
