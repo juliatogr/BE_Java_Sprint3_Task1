@@ -38,3 +38,11 @@ The next links helped me a lot to finish this task.
 - *Patrones de diseño - Betta Tech, Youtube Playlist:* https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8&index=1
 
 - *Singleton Java:* https://es.wikipedia.org/wiki/Singleton#Java
+
+- *Maven Tutorial for Beginners:* https://www.simplilearn.com/tutorials/maven-tutorial/
+
+- *address-formater-java Maven package from Placemarkt:* https://github.com/placemarkt/address-formatter-java
+
+- *libphonenumber library from Google:* https://github.com/google/libphonenumber
+
+- *Using libphonenumber to Validate Phone Numbers:* https://www.baeldung.com/java-libphonenumber
