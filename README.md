@@ -1,4 +1,4 @@
-# Sprint3_Task1
+# BE_Java_Sprint3_Task1
 
 Repository created to deliver the first task of the third sprint of the BackEnd Java Bootcamp at IT-Academy.
 
@@ -29,7 +29,7 @@ Dissenya un pàrquing de 4 vehicles: un cotxe, una bicicleta, un avió i un vaix
 
 Mostra com funciona el patró Command que implementa els mètodes arrencar, accelerar i frenar per a cada tipus de vehicle.
 
-## util_links
+## Util_links
 
 The next links helped me a lot to finish this task.
 
@@ -38,6 +38,7 @@ The next links helped me a lot to finish this task.
 - *Patrones de diseño - Betta Tech, Youtube Playlist:* https://www.youtube.com/watch?v=3qTmBcxGlWk&list=PLJkcleqxxobUJlz1Cm8WYd-F_kckkDvc8&index=1
 
 - *Singleton Java:* https://es.wikipedia.org/wiki/Singleton#Java
+<<<<<<< HEAD
 
 - *Maven Tutorial for Beginners:* https://www.simplilearn.com/tutorials/maven-tutorial/
 
@@ -46,3 +47,5 @@ The next links helped me a lot to finish this task.
 - *libphonenumber library from Google:* https://github.com/google/libphonenumber
 
 - *Using libphonenumber to Validate Phone Numbers:* https://www.baeldung.com/java-libphonenumber
+=======
+>>>>>>> fb38ab7da42a5a13b15ef130dd1eb545ade9adaa
