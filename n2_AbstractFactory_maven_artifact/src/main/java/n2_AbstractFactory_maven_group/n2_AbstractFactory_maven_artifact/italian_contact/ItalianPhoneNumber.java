@@ -1,8 +1,8 @@
-package n2_abstractfactory.italian_contact;
+package n2_AbstractFactory_maven_group.n2_AbstractFactory_maven_artifact.italian_contact;
 
 import java.util.Scanner;
 
-import n2_abstractfactory.generics.PhoneNumber;
+import n2_AbstractFactory_maven_group.n2_AbstractFactory_maven_artifact.generics.PhoneNumber;
 
 public class ItalianPhoneNumber implements PhoneNumber {
 	private static final String PREFIX = "+34";
@@ -57,4 +57,10 @@ public class ItalianPhoneNumber implements PhoneNumber {
 		
 		return isValid;
 	}
+	@Override
+	public String toString() {
+		return phoneNumber;
+	}
+	
+	
 }

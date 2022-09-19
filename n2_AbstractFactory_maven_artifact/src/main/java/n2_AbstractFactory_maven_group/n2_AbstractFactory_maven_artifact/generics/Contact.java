@@ -1,4 +1,4 @@
-package n2_abstractfactory.generics;
+package n2_AbstractFactory_maven_group.n2_AbstractFactory_maven_artifact.generics;
 
 public class Contact {
 	private String name;
@@ -13,6 +13,22 @@ public class Contact {
 		this.cf = cf;
 	}
 	
+	
+	public String getName() {
+		return name;
+	}
+
+
+	public Address getAddress() {
+		return address;
+	}
+
+
+	public PhoneNumber getPhoneNumber() {
+		return phoneNumber;
+	}
+
+
 	public void addAddress() {
 		this.address = this.cf.createAddress();
 	}
@@ -20,4 +36,11 @@ public class Contact {
 	public void addPhoneNumber() {
 		this.phoneNumber = this.cf.createPhoneNumber();
 	}
+
+	@Override
+	public String toString() {
+		return "Contact name: " + name + "\n    address: " + address + "\n    phoneNumber: " + phoneNumber;
+	}
+	
+	
 }

@@ -1,8 +1,6 @@
-package n2_abstractfactory.spanish_contact;
+package n2_AbstractFactory_maven_group.n2_AbstractFactory_maven_artifact.spanish_contact;
 
-import n2_abstractfactory.generics.Address;
-import n2_abstractfactory.generics.ContactFactory;
-import n2_abstractfactory.generics.PhoneNumber;
+import n2_AbstractFactory_maven_group.n2_AbstractFactory_maven_artifact.generics.*;
 
 public class SpanishFactory implements ContactFactory {
 

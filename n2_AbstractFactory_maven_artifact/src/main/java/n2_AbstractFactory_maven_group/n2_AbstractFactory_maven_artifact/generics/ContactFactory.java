@@ -1,4 +1,4 @@
-package n2_abstractfactory.generics;
+package n2_AbstractFactory_maven_group.n2_AbstractFactory_maven_artifact.generics;
 
 public interface ContactFactory {
 
