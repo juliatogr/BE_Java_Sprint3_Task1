@@ -38,7 +38,7 @@ L'aplicació ha de permetre afegir a l'agenda, adreces i números de telèfon in
 ### info
 
 - Dins de la carpeta `src` hi ha 3 paquets importants: `application`, `generics`, `countries`.
-- El paquet `application` conté la classe N1_Main, que és la que executa l'aplicació i la classe ContactBook que representa l'agenda de contactes.
+- El paquet `application` conté la classe N2_Main, que és la que executa l'aplicació i la classe ContactBook que representa l'agenda de contactes.
 - El paquet `generics` conté la Abstract Factory amb el nom de ContactFactory i altres classes i interfícies genèriques (independents del país)
 - El paquet `countries` conté subpaquets segons els països implementats. Dins de cada subpaquet trobem 3 fitxers: la factoria concreta per al país en específic i les implementacions necessaries per crear l'adreça i el telèfon en el format requerit d'aquell país.
 
