@@ -41,6 +41,6 @@ public class AustralianAddress implements Address {
 	
 	@Override
 	public String toString() {
-		return "    " + street + house_num + ", " + floor + " " + appartment + "\n    " + zip + " " + province + "\n    " + COUNTRY;
+		return "    " + street + " " + house_num + ", " + floor + " " + appartment + "\n    " + zip + " " + province + "\n    " + COUNTRY;
 	}
 }

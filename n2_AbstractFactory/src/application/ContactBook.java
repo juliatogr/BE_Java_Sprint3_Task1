@@ -3,8 +3,15 @@ package application;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import countries.australian_contact.AustralianFactory;
+import countries.chinese_contact.ChineseFactory;
 import countries.italian_contact.ItalianFactory;
+import countries.japanese_contact.JapaneseFactory;
+import countries.mexican_contact.MexicanFactory;
+import countries.peruan_contact.PeruanFactory;
+import countries.russian_contact.RussianFactory;
 import countries.spanish_contact.SpanishFactory;
+import countries.united_states_contact.UnitedStatesFactory;
 import generics.Contact;
 import generics.ContactFactory;
 
@@ -27,17 +34,57 @@ public class ContactBook {
 		boolean isValidCountry = true;
 		
 		do {
-			System.out.println("Enter their country:");
+			System.out.println("Enter their country: \n"
+					+ "    (Implemented countries:\n"
+					+ "		    - Australia\n"
+					+ "			- China\n"
+					+ "			- Italy\n"
+					+ "			- Japan\n"
+					+ "			- Mexico\n"
+					+ "			- Peru\n"
+					+ "			- Russia\n"
+					+ "			- Spain\n"
+					+ "			- United States)");
+			
 			String country = sc.nextLine();
-			if (country.equalsIgnoreCase("spain")) {
-				cf = new SpanishFactory();
+			
+			if (country.equalsIgnoreCase("Australia")) {
+				cf = new AustralianFactory();
 				isValidCountry = true;
 				
-			} else if (country.equalsIgnoreCase("italy")) {
+			} else if (country.equalsIgnoreCase("China")) {
+				cf = new ChineseFactory();
+				isValidCountry = true;
+				
+			} else if (country.equalsIgnoreCase("Italy")) {
 				cf = new ItalianFactory();
 				isValidCountry = true;
 				
-			} else {
+			} else if (country.equalsIgnoreCase("Japan")) {
+				cf = new JapaneseFactory();
+				isValidCountry = true;
+				
+			} else if (country.equalsIgnoreCase("Mexico")) {
+				cf = new MexicanFactory();
+				isValidCountry = true;
+				
+			} else if (country.equalsIgnoreCase("Peru")) {
+				cf = new PeruanFactory();
+				isValidCountry = true;
+				
+			} else if (country.equalsIgnoreCase("Russia")) {
+				cf = new RussianFactory();
+				isValidCountry = true;
+				
+			} else if (country.equalsIgnoreCase("Spain")) {
+				cf = new SpanishFactory();
+				isValidCountry = true;
+				
+			} else if (country.equalsIgnoreCase("United States")) {
+				cf = new UnitedStatesFactory();
+				isValidCountry = true;
+				
+			}else {
 				isValidCountry = false;
 				System.out.println("You should select a valid country");
 			}

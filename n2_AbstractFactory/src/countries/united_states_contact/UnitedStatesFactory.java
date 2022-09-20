@@ -8,6 +8,6 @@ public class UnitedStatesFactory implements ContactFactory {
 		return new UnitedStatesAddress();
 	}
 	public PhoneNumber createPhoneNumber() {
-		return new UnitedStatesNumber();
+		return new UnitedStatesPhoneNumber();
 	}
 }

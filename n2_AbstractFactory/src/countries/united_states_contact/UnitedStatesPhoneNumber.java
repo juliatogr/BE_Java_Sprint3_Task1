@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 import generics.*;
 
-public class UnitedStatesNumber implements PhoneNumber {
+public class UnitedStatesPhoneNumber implements PhoneNumber {
 	
 	private static final String PREFIX = "+1";
-	private static final int LENGTH = 9;
+	private static final int LENGTH = 10;
 	private String phoneNumber;
 	
-	public UnitedStatesNumber() {
+	public UnitedStatesPhoneNumber() {
 		Scanner sc = new Scanner(System.in);
 		
 		boolean correctFormat = false;

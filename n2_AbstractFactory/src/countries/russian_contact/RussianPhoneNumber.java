@@ -7,7 +7,7 @@ import generics.*;
 public class RussianPhoneNumber implements PhoneNumber {
 	
 	private static final String PREFIX = "+7";
-	private static final int LENGTH = 9;
+	private static final int LENGTH = 10;
 	private String phoneNumber;
 	
 	public RussianPhoneNumber() {
