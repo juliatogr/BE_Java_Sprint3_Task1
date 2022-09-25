@@ -5,11 +5,13 @@ public class Motor
 {
     Command runCommand;
     Command stopCommand;
+    Command startCommand;
 
-    public Motor(Command runCommand, Command stopCommand)
+    public Motor(IMotorable v)
     {
-        this.runCommand = runCommand;
-        this.stopCommand = stopCommand;
+        this.runCommand = new RunMotorCommand(v);
+        this.stopCommand = new StopMotorCommand(v);
+        this.startCommand = new StartMotorCommand(v);
     }
 
     // Close the circuit / power on
@@ -22,5 +24,10 @@ public class Motor
     public void stop()
     {
         this.stopCommand.Execute();
+    }
+    
+    public void start()
+    {
+        this.startCommand.Execute();
     }
 }

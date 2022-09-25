@@ -2,15 +2,15 @@ package n3_main;
 /* The Command for turning off the device - ConcreteCommand #1 */
 public class RunMotorCommand implements Command
 {
-    private IMotorable _switchable;
+    private IMotorable _motorable;
 
-    public RunMotorCommand(IMotorable switchable)
+    public RunMotorCommand(IMotorable motorable)
     {
-        _switchable = switchable;
+        _motorable = motorable;
     }
 
     public void Execute()
     {
-        _switchable.run();
+        _motorable.run();
     }
 }
