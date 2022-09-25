@@ -42,7 +42,7 @@ L'aplicació ha de permetre afegir a l'agenda, adreces i números de telèfon in
 - El paquet `generics` conté la Abstract Factory amb el nom de ContactFactory i altres classes i interfícies genèriques (independents del país)
 - El paquet `countries` conté subpaquets segons els països implementats. Dins de cada subpaquet trobem 3 fitxers: la factoria concreta per al país en específic i les implementacions necessaries per crear l'adreça i el telèfon en el format requerit d'aquell país.
 
-## Nivell 3 - Command (not done)
+## Nivell 3 - Command
 Dissenya un pàrquing de 4 vehicles: un cotxe, una bicicleta, un avió i un vaixell. 
 
 Mostra com funciona el patró Command que implementa els mètodes arrencar, accelerar i frenar per a cada tipus de vehicle.
