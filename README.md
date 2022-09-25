@@ -59,12 +59,4 @@ The next links helped me a lot to finish this task.
 
 - *Singleton Java:* https://es.wikipedia.org/wiki/Singleton#Java
 
-- *Maven Tutorial for Beginners:* https://www.simplilearn.com/tutorials/maven-tutorial/
-
-- *address-formater-java Maven package from Placemarkt:* https://github.com/placemarkt/address-formatter-java
-
-- *libphonenumber library from Google:* https://github.com/google/libphonenumber
-
-- *Using libphonenumber to Validate Phone Numbers:* https://www.baeldung.com/java-libphonenumber
-
 - *List of Country Calling Codes:* https://en.wikipedia.org/wiki/List_of_country_calling_codes
