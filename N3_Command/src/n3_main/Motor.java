@@ -14,20 +14,18 @@ public class Motor
         this.startCommand = new StartMotorCommand(v);
     }
 
-    // Close the circuit / power on
     public void run()
     {
-       this.runCommand.Execute();
+       this.runCommand.execute();
     }
 
-    // Open the circuit / power off
     public void stop()
     {
-        this.stopCommand.Execute();
+        this.stopCommand.execute();
     }
     
     public void start()
     {
-        this.startCommand.Execute();
+        this.startCommand.execute();
     }
 }

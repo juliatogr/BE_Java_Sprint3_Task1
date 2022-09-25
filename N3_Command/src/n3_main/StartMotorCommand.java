@@ -1,17 +1,17 @@
 package n3_main;
 
-/* The Command for turning on the device - ConcreteCommand #2 */
+/* The Command for starting up the vehicle */
 public class StartMotorCommand implements Command
 {
-    private IMotorable _motorable;
+    private IMotorable motorable;
 
-    public StartMotorCommand(IMotorable switchable)
+    public StartMotorCommand(IMotorable motorable)
     {
-        _motorable = switchable;
+        this.motorable = motorable;
     }
 
-    public void Execute()
+    public void execute()
     {
-        _motorable.start();
+    	this.motorable.start();
     }
 }

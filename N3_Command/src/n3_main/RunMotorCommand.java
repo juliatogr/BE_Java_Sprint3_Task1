@@ -1,16 +1,17 @@
 package n3_main;
-/* The Command for turning off the device - ConcreteCommand #1 */
+
+/* The Command for speeding up the vehicle */
 public class RunMotorCommand implements Command
 {
-    private IMotorable _motorable;
+    private IMotorable motorable;
 
     public RunMotorCommand(IMotorable motorable)
     {
-        _motorable = motorable;
+        this.motorable = motorable;
     }
 
-    public void Execute()
+    public void execute()
     {
-        _motorable.run();
+    	this.motorable.run();
     }
 }

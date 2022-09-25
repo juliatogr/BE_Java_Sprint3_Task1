@@ -1,17 +1,17 @@
 package n3_main;
 
-/* The Command for turning on the device - ConcreteCommand #2 */
+/* The Command for stopping the vehicle */
 public class StopMotorCommand implements Command
 {
-    private IMotorable _motorable;
+    private IMotorable motorable;
 
-    public StopMotorCommand(IMotorable switchable)
+    public StopMotorCommand(IMotorable motorable)
     {
-        _motorable = switchable;
+        this.motorable = motorable;
     }
 
-    public void Execute()
+    public void execute()
     {
-        _motorable.stop();
+        this.motorable.stop();
     }
 }

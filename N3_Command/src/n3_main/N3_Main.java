@@ -12,13 +12,14 @@ public class N3_Main {
         IMotorable plane = new Vehicle();
         IMotorable boat = new Vehicle();	        
         
-        // Pass reference to instances of the Command objects to the switch
         Motor carMotor = new Motor(car);
         Motor bicycleMotor = new Motor(bicycle);
         Motor planeMotor = new Motor(plane);
         Motor boatMotor = new Motor(boat);
         
 
+        String vehicleName = "";
+        
         while(!exit) {
         	int motorOpt = initMenu();
         	Motor currentMotor = null;
@@ -30,22 +31,26 @@ public class N3_Main {
         		break;
         	case 1:
         		currentMotor = carMotor;
+        		vehicleName = "car";
         		break;
         	case 2:
         		currentMotor = bicycleMotor;
+        		vehicleName = "bike";
         		break;
         	case 3:
         		currentMotor = planeMotor;
+        		vehicleName = "plane";
         		break;
         	case 4:
         		currentMotor = boatMotor;
+        		vehicleName = "boat";
         		break;	
         	}
         
         	boolean goBack = false;
         	
             while(!goBack) {
-            	int actionOpt = actionMenu();
+            	int actionOpt = actionMenu(vehicleName);
             	
             	switch(actionOpt) {
             	case 0:
@@ -62,7 +67,9 @@ public class N3_Main {
             		break;
             	
                 }
+            	System.out.println();
             }
+            System.out.println();
         }
     }
 	
@@ -93,7 +100,7 @@ public class N3_Main {
 		
 	}
 	
-	public static int actionMenu() {
+	public static int actionMenu(String vehicleName) {
 		Scanner sc = new Scanner(System.in);
 		final int MAX_OPTS = 3;
 		
@@ -101,6 +108,7 @@ public class N3_Main {
 		
 		while (opt < 0 || opt > MAX_OPTS) {
 			
+			System.out.println("Using the " + vehicleName);
 			System.out.println("Choose an action:");
 			
 			System.out.println("    1. Start up");
